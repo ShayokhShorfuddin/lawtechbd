@@ -1,0 +1,80 @@
+:root {
+  --red-color: hsl(5, 90%, 51%);
+  --dark-color: hsl(197, 100%, 11%);
+  --light-dark-color: hsl(197, 100%, 20%);
+
+  --orange-color: hsl(20, 89%, 69%);
+  --light-orange-color: hsl(20, 89%, 80%);
+}
+
+* {
+  font-family: Radio Canada Big, Arial, Helvetica, sans-serif;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+@media only screen and (max-width: 400px) {
+  .logo-img {
+    height: 40px;
+  }
+}
+
+.login-btn {
+  background-color: var(--orange-color);
+}
+
+.login-btn:hover {
+  background-color: var(--light-orange-color);
+}
+
+.logout-btn {
+  background-color: var(--dark-color);
+  color: white;
+  text-wrap: nowrap;
+}
+
+.logout-btn:hover {
+  background-color: var(--red-color);
+  color: white;
+}
+
+.nav-link:hover {
+  color: var(--orange-color);
+}
+
+/* .table-container {
+  overflow-x: scroll;
+} */
+
+.demo-btn {
+  background-color: var(--dark-color);
+  color: white;
+  text-wrap: nowrap;
+}
+
+.demo-btn:hover {
+  background-color: var(--light-dark-color);
+  color: white;
+}
+
+.footer-div {
+  text-wrap: nowrap;
+  background-color: var(--dark-color);
+}
+
+.footer-img {
+  height: 60px;
+}
+
+@media only screen and (max-width: 450px) {
+  .footer-img {
+    height: 40px;
+  }
+}
+
+.footer-links-container a {
+  color: aliceblue;
+  text-decoration: none;
+}
